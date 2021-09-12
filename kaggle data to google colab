@@ -1,3 +1,5 @@
-How to Load Kaggle Datasets Directly into Google Colab:-
-It houses datasets for every domain. You can get a dataset for every possible use case ranging from the entertainment industry,
-medical, e-commerce, and even astronomy. Its users practice on various datasets to test out their skills in the field of Data Science and Machine learning
+Download API Credentials 
+To download data from Kaggle, you need to authenticate with the Kaggle services. For this purpose, you need an API token.
+This token can be easily generated from the profile section of your Kaggle account
+
+1. Go to your account, Scroll to API section and Click Expire API Token to remove previous tokens
