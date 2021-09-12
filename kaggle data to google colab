@@ -3,3 +3,27 @@ To download data from Kaggle, you need to authenticate with the Kaggle services.
 This token can be easily generated from the profile section of your Kaggle account
 
 1. Go to your account, Scroll to API section and Click Expire API Token to remove previous tokens
+
+2. Click on Create New API Token - It will download kaggle.json file on your machine.
+
+3. Go to your Google Colab project file and run the following commands:
+
+1) ! pip install -q kaggle
+
+2) from google.colab import files
+
+files.upload()
+
+  Choose the kaggle.json file that you downloaded
+
+
+) ! mkdir ~/.kaggle
+
+! cp kaggle.json ~/.kaggle/
+
+Make directory named kaggle and copy kaggle.json file there.
+4) ! chmod 600 ~/.kaggle/kaggle.json
+
+
+Download Data
+! kaggle competitions download -c 'name-of-competition'
