@@ -1,0 +1,11 @@
+unzip command to unzip the data:
+
+For example,
+
+Create a directory named train,
+
+! mkdir train
+
+unzip train data there,
+
+! unzip train.zip -d train
